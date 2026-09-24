@@ -1,0 +1,43 @@
+{
+  "started_at": "2026-09-24T12:51:16",
+  "python_version": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "pytorch_version": "2.14.0+cpu",
+  "torchvision_version": "0.29.0+cpu",
+  "device": "cpu",
+  "reproducibility": {
+    "seed": 42,
+    "deterministic_algorithms_requested": true,
+    "train_evaluation_shuffle": false,
+    "fixed_sample_noise": "fixed_noise.pt",
+    "fixed_metric_noise": "metric_noise.pt"
+  },
+  "configuration": {
+    "epochs": 100,
+    "batch_size": 128,
+    "latent_dim": 128,
+    "generator_layers": [
+      256,
+      512
+    ],
+    "discriminator_layers": [
+      512,
+      256
+    ],
+    "learning_rate": 0.0002,
+    "seed": 42,
+    "save_interval": 1,
+    "num_workers": 0,
+    "device": "auto",
+    "data_dir": "data",
+    "output_dir": "outputs",
+    "resume": null,
+    "smoke_test": false,
+    "max_batches": null,
+    "metric_samples": 512,
+    "metrics_every": 1,
+    "show_precision_recall": false,
+    "early_stopping_metric": "fid",
+    "early_stopping_patience": 15,
+    "early_stopping_min_delta": 0.0
+  }
+}

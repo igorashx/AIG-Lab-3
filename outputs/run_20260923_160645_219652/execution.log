@@ -1,0 +1,137 @@
+2026-09-23 16:06:45,330 | INFO | Execution started. Device=cpu, Python=3.14.2, PyTorch=2.14.0+cpu
+2026-09-23 16:06:45,433 | INFO | Antrenez evaluatorul MNIST pentru FID și Inception Score...
+2026-09-23 16:07:39,146 | INFO | Evaluatorul MNIST este pregătit.
+2026-09-23 16:07:39,170 | INFO | Zgomot fix salvat: outputs\run_20260923_160645_219652\fixed_noise.pt
+2026-09-23 16:07:39,170 | INFO | Zgomot pentru metrici salvat: outputs\run_20260923_160645_219652\metric_noise.pt
+2026-09-23 16:08:02,280 | INFO | Epoca 001/100 │ D: 1.3193 │ G: 0.7673 │ D(real): 0.577 │ D(fake): 0.521 │ FID train/val: 626.43/635.95 │ IS train/val: 2.30/2.30 │ 22.7s
+2026-09-23 16:08:02,736 | INFO | ✓ Cel mai bun validation FID: 635.9520
+2026-09-23 16:08:30,325 | INFO | Epoca 002/100 │ D: 1.2302 │ G: 0.9973 │ D(real): 0.580 │ D(fake): 0.447 │ FID train/val: 442.75/450.18 │ IS train/val: 3.47/3.47 │ 27.1s
+2026-09-23 16:08:30,571 | INFO | ✓ Cel mai bun validation FID: 450.1759
+2026-09-23 16:08:56,296 | INFO | Epoca 003/100 │ D: 1.1897 │ G: 1.0448 │ D(real): 0.592 │ D(fake): 0.418 │ FID train/val: 410.21/409.75 │ IS train/val: 3.24/3.24 │ 25.4s
+2026-09-23 16:08:56,513 | INFO | ✓ Cel mai bun validation FID: 409.7533
+2026-09-23 16:09:20,038 | INFO | Epoca 004/100 │ D: 1.1651 │ G: 1.0747 │ D(real): 0.601 │ D(fake): 0.406 │ FID train/val: 292.96/298.69 │ IS train/val: 4.45/4.45 │ 23.2s
+2026-09-23 16:09:20,275 | INFO | ✓ Cel mai bun validation FID: 298.6926
+2026-09-23 16:09:43,558 | INFO | Epoca 005/100 │ D: 1.1336 │ G: 1.1232 │ D(real): 0.614 │ D(fake): 0.393 │ FID train/val: 257.21/251.77 │ IS train/val: 4.58/4.58 │ 22.9s
+2026-09-23 16:09:43,790 | INFO | ✓ Cel mai bun validation FID: 251.7743
+2026-09-23 16:10:07,559 | INFO | Epoca 006/100 │ D: 1.1440 │ G: 1.1058 │ D(real): 0.609 │ D(fake): 0.395 │ FID train/val: 227.86/235.88 │ IS train/val: 4.97/4.97 │ 23.4s
+2026-09-23 16:10:07,800 | INFO | ✓ Cel mai bun validation FID: 235.8830
+2026-09-23 16:10:31,193 | INFO | Epoca 007/100 │ D: 1.1640 │ G: 1.0736 │ D(real): 0.601 │ D(fake): 0.402 │ FID train/val: 164.53/164.35 │ IS train/val: 5.87/5.87 │ 23.0s
+2026-09-23 16:10:31,571 | INFO | ✓ Cel mai bun validation FID: 164.3461
+2026-09-23 16:10:54,657 | INFO | Epoca 008/100 │ D: 1.1635 │ G: 1.0706 │ D(real): 0.600 │ D(fake): 0.401 │ FID train/val: 158.87/158.83 │ IS train/val: 5.63/5.63 │ 22.7s
+2026-09-23 16:10:54,911 | INFO | ✓ Cel mai bun validation FID: 158.8270
+2026-09-23 16:11:17,913 | INFO | Epoca 009/100 │ D: 1.1773 │ G: 1.0483 │ D(real): 0.595 │ D(fake): 0.406 │ FID train/val: 128.74/134.08 │ IS train/val: 6.19/6.19 │ 22.7s
+2026-09-23 16:11:18,127 | INFO | ✓ Cel mai bun validation FID: 134.0767
+2026-09-23 16:11:41,634 | INFO | Epoca 010/100 │ D: 1.1910 │ G: 1.0219 │ D(real): 0.589 │ D(fake): 0.412 │ FID train/val: 148.89/151.83 │ IS train/val: 6.07/6.07 │ 23.1s
+2026-09-23 16:11:41,834 | INFO | Early stopping: 1/15 evaluări fără îmbunătățire.
+2026-09-23 16:12:05,055 | INFO | Epoca 011/100 │ D: 1.1869 │ G: 1.0352 │ D(real): 0.590 │ D(fake): 0.410 │ FID train/val: 130.92/132.26 │ IS train/val: 6.20/6.20 │ 22.8s
+2026-09-23 16:12:05,270 | INFO | ✓ Cel mai bun validation FID: 132.2589
+2026-09-23 16:12:28,841 | INFO | Epoca 012/100 │ D: 1.1905 │ G: 1.0210 │ D(real): 0.589 │ D(fake): 0.412 │ FID train/val: 121.80/121.58 │ IS train/val: 6.11/6.11 │ 23.2s
+2026-09-23 16:12:29,108 | INFO | ✓ Cel mai bun validation FID: 121.5762
+2026-09-23 16:12:52,792 | INFO | Epoca 013/100 │ D: 1.2044 │ G: 0.9987 │ D(real): 0.583 │ D(fake): 0.417 │ FID train/val: 94.29/100.13 │ IS train/val: 6.68/6.68 │ 23.3s
+2026-09-23 16:12:53,017 | INFO | ✓ Cel mai bun validation FID: 100.1283
+2026-09-23 16:13:16,535 | INFO | Epoca 014/100 │ D: 1.2121 │ G: 0.9884 │ D(real): 0.580 │ D(fake): 0.421 │ FID train/val: 97.14/102.19 │ IS train/val: 6.69/6.69 │ 23.1s
+2026-09-23 16:13:16,727 | INFO | Early stopping: 1/15 evaluări fără îmbunătățire.
+2026-09-23 16:13:40,680 | INFO | Epoca 015/100 │ D: 1.2233 │ G: 0.9703 │ D(real): 0.575 │ D(fake): 0.425 │ FID train/val: 66.41/69.62 │ IS train/val: 7.11/7.11 │ 23.6s
+2026-09-23 16:13:40,901 | INFO | ✓ Cel mai bun validation FID: 69.6228
+2026-09-23 16:14:04,247 | INFO | Epoca 016/100 │ D: 1.2265 │ G: 0.9638 │ D(real): 0.573 │ D(fake): 0.427 │ FID train/val: 82.59/92.22 │ IS train/val: 6.85/6.85 │ 23.0s
+2026-09-23 16:14:04,509 | INFO | Early stopping: 1/15 evaluări fără îmbunătățire.
+2026-09-23 16:14:28,383 | INFO | Epoca 017/100 │ D: 1.2248 │ G: 0.9687 │ D(real): 0.574 │ D(fake): 0.426 │ FID train/val: 83.23/86.65 │ IS train/val: 6.92/6.92 │ 23.5s
+2026-09-23 16:14:28,570 | INFO | Early stopping: 2/15 evaluări fără îmbunătățire.
+2026-09-23 16:14:58,884 | INFO | Epoca 018/100 │ D: 1.2283 │ G: 0.9630 │ D(real): 0.572 │ D(fake): 0.427 │ FID train/val: 65.63/70.81 │ IS train/val: 6.97/6.97 │ 29.7s
+2026-09-23 16:14:59,168 | INFO | Early stopping: 3/15 evaluări fără îmbunătățire.
+2026-09-23 16:15:49,053 | INFO | Epoca 019/100 │ D: 1.2349 │ G: 0.9464 │ D(real): 0.570 │ D(fake): 0.430 │ FID train/val: 62.92/64.78 │ IS train/val: 7.09/7.09 │ 48.7s
+2026-09-23 16:15:49,431 | INFO | ✓ Cel mai bun validation FID: 64.7844
+2026-09-23 16:16:24,492 | INFO | Epoca 020/100 │ D: 1.2376 │ G: 0.9464 │ D(real): 0.569 │ D(fake): 0.432 │ FID train/val: 66.61/71.72 │ IS train/val: 7.16/7.16 │ 34.7s
+2026-09-23 16:16:24,746 | INFO | Early stopping: 1/15 evaluări fără îmbunătățire.
+2026-09-23 16:16:49,912 | INFO | Epoca 021/100 │ D: 1.2381 │ G: 0.9422 │ D(real): 0.568 │ D(fake): 0.432 │ FID train/val: 63.69/63.57 │ IS train/val: 7.19/7.19 │ 24.7s
+2026-09-23 16:16:50,143 | INFO | ✓ Cel mai bun validation FID: 63.5715
+2026-09-23 16:17:13,362 | INFO | Epoca 022/100 │ D: 1.2472 │ G: 0.9256 │ D(real): 0.564 │ D(fake): 0.436 │ FID train/val: 56.58/59.08 │ IS train/val: 7.31/7.31 │ 22.8s
+2026-09-23 16:17:13,670 | INFO | ✓ Cel mai bun validation FID: 59.0812
+2026-09-23 16:17:36,748 | INFO | Epoca 023/100 │ D: 1.2430 │ G: 0.9312 │ D(real): 0.566 │ D(fake): 0.435 │ FID train/val: 54.84/60.47 │ IS train/val: 7.27/7.27 │ 22.7s
+2026-09-23 16:17:36,977 | INFO | Early stopping: 1/15 evaluări fără îmbunătățire.
+2026-09-23 16:18:00,139 | INFO | Epoca 024/100 │ D: 1.2517 │ G: 0.9212 │ D(real): 0.562 │ D(fake): 0.437 │ FID train/val: 50.09/54.06 │ IS train/val: 7.65/7.65 │ 22.8s
+2026-09-23 16:18:00,474 | INFO | ✓ Cel mai bun validation FID: 54.0579
+2026-09-23 16:18:23,678 | INFO | Epoca 025/100 │ D: 1.2517 │ G: 0.9181 │ D(real): 0.562 │ D(fake): 0.438 │ FID train/val: 59.13/62.16 │ IS train/val: 7.48/7.48 │ 22.9s
+2026-09-23 16:18:23,873 | INFO | Early stopping: 1/15 evaluări fără îmbunătățire.
+2026-09-23 16:18:47,809 | INFO | Epoca 026/100 │ D: 1.2539 │ G: 0.9118 │ D(real): 0.561 │ D(fake): 0.439 │ FID train/val: 52.72/57.46 │ IS train/val: 7.53/7.53 │ 23.5s
+2026-09-23 16:18:47,998 | INFO | Early stopping: 2/15 evaluări fără îmbunătățire.
+2026-09-23 16:19:15,581 | INFO | Epoca 027/100 │ D: 1.2597 │ G: 0.9069 │ D(real): 0.559 │ D(fake): 0.441 │ FID train/val: 49.52/50.59 │ IS train/val: 7.55/7.55 │ 27.2s
+2026-09-23 16:19:15,899 | INFO | ✓ Cel mai bun validation FID: 50.5938
+2026-09-23 16:19:43,221 | INFO | Epoca 028/100 │ D: 1.2627 │ G: 0.8965 │ D(real): 0.558 │ D(fake): 0.443 │ FID train/val: 46.17/50.62 │ IS train/val: 7.52/7.52 │ 26.9s
+2026-09-23 16:19:43,517 | INFO | Early stopping: 1/15 evaluări fără îmbunătățire.
+2026-09-23 16:20:08,152 | INFO | Epoca 029/100 │ D: 1.2591 │ G: 0.9037 │ D(real): 0.558 │ D(fake): 0.441 │ FID train/val: 41.39/45.70 │ IS train/val: 7.59/7.59 │ 24.3s
+2026-09-23 16:20:08,384 | INFO | ✓ Cel mai bun validation FID: 45.6965
+2026-09-23 16:20:32,014 | INFO | Epoca 030/100 │ D: 1.2628 │ G: 0.8981 │ D(real): 0.557 │ D(fake): 0.443 │ FID train/val: 46.69/47.90 │ IS train/val: 7.81/7.81 │ 23.2s
+2026-09-23 16:20:32,204 | INFO | Early stopping: 1/15 evaluări fără îmbunătățire.
+2026-09-23 16:20:55,823 | INFO | Epoca 031/100 │ D: 1.2640 │ G: 0.8958 │ D(real): 0.558 │ D(fake): 0.445 │ FID train/val: 47.74/52.48 │ IS train/val: 7.61/7.61 │ 23.3s
+2026-09-23 16:20:56,038 | INFO | Early stopping: 2/15 evaluări fără îmbunătățire.
+2026-09-23 16:21:19,151 | INFO | Epoca 032/100 │ D: 1.2621 │ G: 0.8974 │ D(real): 0.557 │ D(fake): 0.442 │ FID train/val: 32.35/37.68 │ IS train/val: 7.80/7.80 │ 22.8s
+2026-09-23 16:21:19,398 | INFO | ✓ Cel mai bun validation FID: 37.6764
+2026-09-23 16:21:42,690 | INFO | Epoca 033/100 │ D: 1.2682 │ G: 0.8866 │ D(real): 0.556 │ D(fake): 0.446 │ FID train/val: 46.55/45.03 │ IS train/val: 7.52/7.52 │ 22.9s
+2026-09-23 16:21:42,874 | INFO | Early stopping: 1/15 evaluări fără îmbunătățire.
+2026-09-23 16:22:10,332 | INFO | Epoca 034/100 │ D: 1.2728 │ G: 0.8825 │ D(real): 0.552 │ D(fake): 0.447 │ FID train/val: 37.16/42.05 │ IS train/val: 7.82/7.82 │ 27.0s
+2026-09-23 16:22:10,614 | INFO | Early stopping: 2/15 evaluări fără îmbunătățire.
+2026-09-23 16:22:40,733 | INFO | Epoca 035/100 │ D: 1.2675 │ G: 0.8873 │ D(real): 0.555 │ D(fake): 0.445 │ FID train/val: 38.56/45.67 │ IS train/val: 7.82/7.82 │ 29.7s
+2026-09-23 16:22:40,949 | INFO | Early stopping: 3/15 evaluări fără îmbunătățire.
+2026-09-23 16:23:11,442 | INFO | Epoca 036/100 │ D: 1.2746 │ G: 0.8747 │ D(real): 0.553 │ D(fake): 0.449 │ FID train/val: 43.95/48.56 │ IS train/val: 7.84/7.84 │ 30.1s
+2026-09-23 16:23:11,994 | INFO | Early stopping: 4/15 evaluări fără îmbunătățire.
+2026-09-23 16:23:41,596 | INFO | Epoca 037/100 │ D: 1.2741 │ G: 0.8793 │ D(real): 0.552 │ D(fake): 0.447 │ FID train/val: 38.52/36.94 │ IS train/val: 7.61/7.61 │ 29.2s
+2026-09-23 16:23:41,836 | INFO | ✓ Cel mai bun validation FID: 36.9405
+2026-09-23 16:24:11,920 | INFO | Epoca 038/100 │ D: 1.2738 │ G: 0.8726 │ D(real): 0.553 │ D(fake): 0.449 │ FID train/val: 33.16/35.54 │ IS train/val: 8.05/8.05 │ 29.7s
+2026-09-23 16:24:12,172 | INFO | ✓ Cel mai bun validation FID: 35.5385
+2026-09-23 16:24:42,309 | INFO | Epoca 039/100 │ D: 1.2792 │ G: 0.8674 │ D(real): 0.550 │ D(fake): 0.450 │ FID train/val: 32.07/34.65 │ IS train/val: 8.10/8.10 │ 29.7s
+2026-09-23 16:24:42,544 | INFO | ✓ Cel mai bun validation FID: 34.6526
+2026-09-23 16:25:12,571 | INFO | Epoca 040/100 │ D: 1.2810 │ G: 0.8633 │ D(real): 0.549 │ D(fake): 0.451 │ FID train/val: 31.37/36.03 │ IS train/val: 7.82/7.82 │ 29.6s
+2026-09-23 16:25:12,782 | INFO | Early stopping: 1/15 evaluări fără îmbunătățire.
+2026-09-23 16:25:43,104 | INFO | Epoca 041/100 │ D: 1.2826 │ G: 0.8620 │ D(real): 0.548 │ D(fake): 0.451 │ FID train/val: 29.44/33.99 │ IS train/val: 7.88/7.88 │ 29.9s
+2026-09-23 16:25:43,373 | INFO | ✓ Cel mai bun validation FID: 33.9926
+2026-09-23 16:26:13,455 | INFO | Epoca 042/100 │ D: 1.2822 │ G: 0.8613 │ D(real): 0.549 │ D(fake): 0.451 │ FID train/val: 41.84/42.35 │ IS train/val: 7.98/7.98 │ 29.6s
+2026-09-23 16:26:13,673 | INFO | Early stopping: 1/15 evaluări fără îmbunătățire.
+2026-09-23 16:26:44,050 | INFO | Epoca 043/100 │ D: 1.2840 │ G: 0.8612 │ D(real): 0.548 │ D(fake): 0.453 │ FID train/val: 44.75/49.33 │ IS train/val: 7.77/7.77 │ 30.0s
+2026-09-23 16:26:44,278 | INFO | Early stopping: 2/15 evaluări fără îmbunătățire.
+2026-09-23 16:27:14,354 | INFO | Epoca 044/100 │ D: 1.2805 │ G: 0.8639 │ D(real): 0.550 │ D(fake): 0.451 │ FID train/val: 37.63/40.37 │ IS train/val: 7.74/7.74 │ 29.7s
+2026-09-23 16:27:14,573 | INFO | Early stopping: 3/15 evaluări fără îmbunătățire.
+2026-09-23 16:27:44,191 | INFO | Epoca 045/100 │ D: 1.2871 │ G: 0.8539 │ D(real): 0.546 │ D(fake): 0.454 │ FID train/val: 42.83/44.90 │ IS train/val: 7.73/7.73 │ 29.2s
+2026-09-23 16:27:44,419 | INFO | Early stopping: 4/15 evaluări fără îmbunătățire.
+2026-09-23 16:28:14,947 | INFO | Epoca 046/100 │ D: 1.2811 │ G: 0.8638 │ D(real): 0.549 │ D(fake): 0.451 │ FID train/val: 36.22/40.80 │ IS train/val: 8.04/8.04 │ 30.1s
+2026-09-23 16:28:15,162 | INFO | Early stopping: 5/15 evaluări fără îmbunătățire.
+2026-09-23 16:28:45,618 | INFO | Epoca 047/100 │ D: 1.2863 │ G: 0.8553 │ D(real): 0.547 │ D(fake): 0.453 │ FID train/val: 41.70/45.60 │ IS train/val: 7.73/7.73 │ 30.1s
+2026-09-23 16:28:45,819 | INFO | Early stopping: 6/15 evaluări fără îmbunătățire.
+2026-09-23 16:29:16,311 | INFO | Epoca 048/100 │ D: 1.2829 │ G: 0.8542 │ D(real): 0.548 │ D(fake): 0.453 │ FID train/val: 40.14/39.75 │ IS train/val: 7.86/7.86 │ 30.0s
+2026-09-23 16:29:16,546 | INFO | Early stopping: 7/15 evaluări fără îmbunătățire.
+2026-09-23 16:29:46,849 | INFO | Epoca 049/100 │ D: 1.2844 │ G: 0.8581 │ D(real): 0.547 │ D(fake): 0.452 │ FID train/val: 29.61/29.43 │ IS train/val: 8.07/8.07 │ 29.8s
+2026-09-23 16:29:47,090 | INFO | ✓ Cel mai bun validation FID: 29.4263
+2026-09-23 16:30:18,246 | INFO | Epoca 050/100 │ D: 1.2860 │ G: 0.8515 │ D(real): 0.547 │ D(fake): 0.453 │ FID train/val: 40.06/41.31 │ IS train/val: 7.90/7.90 │ 30.8s
+2026-09-23 16:30:18,533 | INFO | Early stopping: 1/15 evaluări fără îmbunătățire.
+2026-09-23 16:30:48,602 | INFO | Epoca 051/100 │ D: 1.2832 │ G: 0.8565 │ D(real): 0.548 │ D(fake): 0.452 │ FID train/val: 40.88/43.35 │ IS train/val: 7.62/7.62 │ 29.6s
+2026-09-23 16:30:48,836 | INFO | Early stopping: 2/15 evaluări fără îmbunătățire.
+2026-09-23 16:31:18,964 | INFO | Epoca 052/100 │ D: 1.2887 │ G: 0.8534 │ D(real): 0.545 │ D(fake): 0.454 │ FID train/val: 37.42/34.18 │ IS train/val: 7.92/7.92 │ 29.6s
+2026-09-23 16:31:19,258 | INFO | Early stopping: 3/15 evaluări fără îmbunătățire.
+2026-09-23 16:31:49,830 | INFO | Epoca 053/100 │ D: 1.2911 │ G: 0.8478 │ D(real): 0.544 │ D(fake): 0.455 │ FID train/val: 30.89/35.79 │ IS train/val: 8.04/8.04 │ 30.1s
+2026-09-23 16:31:50,043 | INFO | Early stopping: 4/15 evaluări fără îmbunătățire.
+2026-09-23 16:32:21,145 | INFO | Epoca 054/100 │ D: 1.2882 │ G: 0.8533 │ D(real): 0.546 │ D(fake): 0.454 │ FID train/val: 35.40/41.79 │ IS train/val: 7.96/7.96 │ 30.7s
+2026-09-23 16:32:21,505 | INFO | Early stopping: 5/15 evaluări fără îmbunătățire.
+2026-09-23 16:32:52,348 | INFO | Epoca 055/100 │ D: 1.2868 │ G: 0.8523 │ D(real): 0.547 │ D(fake): 0.454 │ FID train/val: 33.88/34.78 │ IS train/val: 8.16/8.16 │ 30.4s
+2026-09-23 16:32:52,579 | INFO | Early stopping: 6/15 evaluări fără îmbunătățire.
+2026-09-23 16:33:22,852 | INFO | Epoca 056/100 │ D: 1.2926 │ G: 0.8453 │ D(real): 0.544 │ D(fake): 0.456 │ FID train/val: 35.96/38.53 │ IS train/val: 8.22/8.22 │ 29.9s
+2026-09-23 16:33:23,076 | INFO | Early stopping: 7/15 evaluări fără îmbunătățire.
+2026-09-23 16:33:53,006 | INFO | Epoca 057/100 │ D: 1.2897 │ G: 0.8480 │ D(real): 0.545 │ D(fake): 0.455 │ FID train/val: 41.01/45.56 │ IS train/val: 7.91/7.91 │ 29.5s
+2026-09-23 16:33:53,265 | INFO | Early stopping: 8/15 evaluări fără îmbunătățire.
+2026-09-23 16:34:23,582 | INFO | Epoca 058/100 │ D: 1.2910 │ G: 0.8439 │ D(real): 0.545 │ D(fake): 0.456 │ FID train/val: 34.11/37.85 │ IS train/val: 8.04/8.04 │ 29.9s
+2026-09-23 16:34:23,812 | INFO | Early stopping: 9/15 evaluări fără îmbunătățire.
+2026-09-23 16:34:53,873 | INFO | Epoca 059/100 │ D: 1.2933 │ G: 0.8416 │ D(real): 0.544 │ D(fake): 0.457 │ FID train/val: 36.05/39.48 │ IS train/val: 7.90/7.90 │ 29.6s
+2026-09-23 16:34:54,078 | INFO | Early stopping: 10/15 evaluări fără îmbunătățire.
+2026-09-23 16:35:24,600 | INFO | Epoca 060/100 │ D: 1.2966 │ G: 0.8349 │ D(real): 0.542 │ D(fake): 0.458 │ FID train/val: 40.18/44.12 │ IS train/val: 7.96/7.96 │ 30.1s
+2026-09-23 16:35:24,980 | INFO | Early stopping: 11/15 evaluări fără îmbunătățire.
+2026-09-23 16:35:54,802 | INFO | Epoca 061/100 │ D: 1.2940 │ G: 0.8408 │ D(real): 0.544 │ D(fake): 0.457 │ FID train/val: 29.78/33.56 │ IS train/val: 8.17/8.17 │ 29.4s
+2026-09-23 16:35:55,013 | INFO | Early stopping: 12/15 evaluări fără îmbunătățire.
+2026-09-23 16:36:25,214 | INFO | Epoca 062/100 │ D: 1.2923 │ G: 0.8411 │ D(real): 0.544 │ D(fake): 0.456 │ FID train/val: 26.51/29.53 │ IS train/val: 8.22/8.22 │ 29.7s
+2026-09-23 16:36:25,432 | INFO | Early stopping: 13/15 evaluări fără îmbunătățire.
+2026-09-23 16:36:55,784 | INFO | Epoca 063/100 │ D: 1.2910 │ G: 0.8429 │ D(real): 0.545 │ D(fake): 0.456 │ FID train/val: 38.60/40.94 │ IS train/val: 7.94/7.94 │ 29.9s
+2026-09-23 16:36:56,059 | INFO | Early stopping: 14/15 evaluări fără îmbunătățire.
+2026-09-23 16:37:25,869 | INFO | Epoca 064/100 │ D: 1.2939 │ G: 0.8367 │ D(real): 0.544 │ D(fake): 0.457 │ FID train/val: 34.99/39.49 │ IS train/val: 7.93/7.93 │ 29.4s
+2026-09-23 16:37:26,083 | INFO | Early stopping: 15/15 evaluări fără îmbunătățire.
+2026-09-23 16:37:26,084 | INFO | Early stopping activat: criteriul de calitate nu s-a îmbunătățit.
+2026-09-23 16:37:26,104 | INFO | Evaluez modelul selectat pentru raportul final: best_quality.pt
+2026-09-23 16:37:26,812 | INFO | Raport final train/validation/test salvat: outputs\run_20260923_160645_219652\best_model_metrics.json
+2026-09-23 16:37:26,813 | INFO | Training completed in 1787.60 seconds. Artifacts=outputs\run_20260923_160645_219652

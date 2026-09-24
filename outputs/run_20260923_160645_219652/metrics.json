@@ -1,0 +1,1670 @@
+{
+  "run_directory": "outputs\\run_20260923_160645_219652",
+  "quality_metric_definition": "FID and IS use a frozen MNIST classifier trained on the training split; they are not ImageNet Inception-v3 scores. Every epoch uses the saved metric_noise.pt and fixed real-data cohorts.",
+  "epochs": [
+    {
+      "epoch": 1,
+      "duration_seconds": 22.719026200007647,
+      "training_metrics": {
+        "g_loss": 0.767347866783142,
+        "d_loss": 1.3192724865341185,
+        "d_real": 0.5766917823410034,
+        "d_fake": 0.5206565678405761
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 626.4337525433112,
+          "inception_score_mean": 2.3024006497777947,
+          "inception_score_std": 0.11696356340413717,
+          "precision": 0.958984375,
+          "recall": 0.0
+        },
+        "validation": {
+          "fid": 635.9520388906708,
+          "inception_score_mean": 2.3024006497777947,
+          "inception_score_std": 0.11696356340413717,
+          "precision": 0.884765625,
+          "recall": 0.0
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "duration_seconds": 27.12731920002261,
+      "training_metrics": {
+        "g_loss": 0.9972944600296021,
+        "d_loss": 1.230246377067566,
+        "d_real": 0.5802760462379456,
+        "d_fake": 0.44728890016555783
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 442.7481470490334,
+          "inception_score_mean": 3.467330579480394,
+          "inception_score_std": 0.2290341578360197,
+          "precision": 0.86328125,
+          "recall": 0.005859375
+        },
+        "validation": {
+          "fid": 450.1758519152188,
+          "inception_score_mean": 3.467330579480394,
+          "inception_score_std": 0.2290341578360197,
+          "precision": 0.92578125,
+          "recall": 0.0
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "duration_seconds": 25.359745200024918,
+      "training_metrics": {
+        "g_loss": 1.0447713998413086,
+        "d_loss": 1.1896604455566406,
+        "d_real": 0.5918467057800293,
+        "d_fake": 0.41781114727020263
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 410.2067273177014,
+          "inception_score_mean": 3.2407733801604888,
+          "inception_score_std": 0.2949965060712886,
+          "precision": 0.923828125,
+          "recall": 0.001953125
+        },
+        "validation": {
+          "fid": 409.75325661229857,
+          "inception_score_mean": 3.2407733801604888,
+          "inception_score_std": 0.2949965060712886,
+          "precision": 0.919921875,
+          "recall": 0.001953125
+        }
+      }
+    },
+    {
+      "epoch": 4,
+      "duration_seconds": 23.157635400013532,
+      "training_metrics": {
+        "g_loss": 1.0746666300392151,
+        "d_loss": 1.1651304763031005,
+        "d_real": 0.6013535813999176,
+        "d_fake": 0.4057613154220581
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 292.9590156294853,
+          "inception_score_mean": 4.447508845581854,
+          "inception_score_std": 0.26257315533149717,
+          "precision": 0.92578125,
+          "recall": 0.021484375
+        },
+        "validation": {
+          "fid": 298.6925603143713,
+          "inception_score_mean": 4.447508845581854,
+          "inception_score_std": 0.26257315533149717,
+          "precision": 0.8671875,
+          "recall": 0.025390625
+        }
+      }
+    },
+    {
+      "epoch": 5,
+      "duration_seconds": 22.902547100005904,
+      "training_metrics": {
+        "g_loss": 1.1232299856185912,
+        "d_loss": 1.1336390711975097,
+        "d_real": 0.6141100163459778,
+        "d_fake": 0.39301631002426146
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 257.2069215332308,
+          "inception_score_mean": 4.576444875699706,
+          "inception_score_std": 0.18335423336305995,
+          "precision": 0.81640625,
+          "recall": 0.115234375
+        },
+        "validation": {
+          "fid": 251.77433867105088,
+          "inception_score_mean": 4.576444875699706,
+          "inception_score_std": 0.18335423336305995,
+          "precision": 0.8125,
+          "recall": 0.103515625
+        }
+      }
+    },
+    {
+      "epoch": 6,
+      "duration_seconds": 23.40329409998958,
+      "training_metrics": {
+        "g_loss": 1.105844262714386,
+        "d_loss": 1.1440004584503174,
+        "d_real": 0.6087516174125671,
+        "d_fake": 0.3950287503528595
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 227.8551048547725,
+          "inception_score_mean": 4.974272517881333,
+          "inception_score_std": 0.3154086593002814,
+          "precision": 0.833984375,
+          "recall": 0.099609375
+        },
+        "validation": {
+          "fid": 235.88295536574682,
+          "inception_score_mean": 4.974272517881333,
+          "inception_score_std": 0.3154086593002814,
+          "precision": 0.830078125,
+          "recall": 0.083984375
+        }
+      }
+    },
+    {
+      "epoch": 7,
+      "duration_seconds": 23.03873630001908,
+      "training_metrics": {
+        "g_loss": 1.0736360173797608,
+        "d_loss": 1.1640257548904418,
+        "d_real": 0.6007905952644348,
+        "d_fake": 0.40236267559051514
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 164.53019960213692,
+          "inception_score_mean": 5.869068482944474,
+          "inception_score_std": 0.35175282446955664,
+          "precision": 0.861328125,
+          "recall": 0.279296875
+        },
+        "validation": {
+          "fid": 164.3461062367159,
+          "inception_score_mean": 5.869068482944474,
+          "inception_score_std": 0.35175282446955664,
+          "precision": 0.873046875,
+          "recall": 0.228515625
+        }
+      }
+    },
+    {
+      "epoch": 8,
+      "duration_seconds": 22.714039399987087,
+      "training_metrics": {
+        "g_loss": 1.070600019454956,
+        "d_loss": 1.1634518572998047,
+        "d_real": 0.6003527499580383,
+        "d_fake": 0.4008635433292389
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 158.86755170312424,
+          "inception_score_mean": 5.627186495757011,
+          "inception_score_std": 0.27158803035070395,
+          "precision": 0.830078125,
+          "recall": 0.2578125
+        },
+        "validation": {
+          "fid": 158.8269901248375,
+          "inception_score_mean": 5.627186495757011,
+          "inception_score_std": 0.27158803035070395,
+          "precision": 0.888671875,
+          "recall": 0.267578125
+        }
+      }
+    },
+    {
+      "epoch": 9,
+      "duration_seconds": 22.656467499997234,
+      "training_metrics": {
+        "g_loss": 1.048276108818054,
+        "d_loss": 1.177295908432007,
+        "d_real": 0.594854029045105,
+        "d_fake": 0.40569393164634704
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 128.74152509627095,
+          "inception_score_mean": 6.190855773452931,
+          "inception_score_std": 0.44007222647170313,
+          "precision": 0.833984375,
+          "recall": 0.3125
+        },
+        "validation": {
+          "fid": 134.07666165713505,
+          "inception_score_mean": 6.190855773452931,
+          "inception_score_std": 0.44007222647170313,
+          "precision": 0.859375,
+          "recall": 0.29296875
+        }
+      }
+    },
+    {
+      "epoch": 10,
+      "duration_seconds": 23.119158000015887,
+      "training_metrics": {
+        "g_loss": 1.0219043489074706,
+        "d_loss": 1.1909654870605468,
+        "d_real": 0.5888658893966675,
+        "d_fake": 0.41248866822242736
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 148.89170814817066,
+          "inception_score_mean": 6.069769841297983,
+          "inception_score_std": 0.3319427170253208,
+          "precision": 0.83203125,
+          "recall": 0.37890625
+        },
+        "validation": {
+          "fid": 151.8261709645562,
+          "inception_score_mean": 6.069769841297983,
+          "inception_score_std": 0.3319427170253208,
+          "precision": 0.84765625,
+          "recall": 0.34765625
+        }
+      }
+    },
+    {
+      "epoch": 11,
+      "duration_seconds": 22.84436280000955,
+      "training_metrics": {
+        "g_loss": 1.035222267227173,
+        "d_loss": 1.18690683177948,
+        "d_real": 0.5903458370208741,
+        "d_fake": 0.40964242925643923
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 130.92103330822383,
+          "inception_score_mean": 6.195332426009695,
+          "inception_score_std": 0.4219509510102382,
+          "precision": 0.828125,
+          "recall": 0.349609375
+        },
+        "validation": {
+          "fid": 132.25892811855564,
+          "inception_score_mean": 6.195332426009695,
+          "inception_score_std": 0.4219509510102382,
+          "precision": 0.83203125,
+          "recall": 0.345703125
+        }
+      }
+    },
+    {
+      "epoch": 12,
+      "duration_seconds": 23.15728980000131,
+      "training_metrics": {
+        "g_loss": 1.020980189590454,
+        "d_loss": 1.1905301781463622,
+        "d_real": 0.5890408028793335,
+        "d_fake": 0.41163492105484006
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 121.79811365400937,
+          "inception_score_mean": 6.108413282516743,
+          "inception_score_std": 0.3876187114007539,
+          "precision": 0.8046875,
+          "recall": 0.498046875
+        },
+        "validation": {
+          "fid": 121.57620482465222,
+          "inception_score_mean": 6.108413282516743,
+          "inception_score_std": 0.3876187114007539,
+          "precision": 0.85546875,
+          "recall": 0.509765625
+        }
+      }
+    },
+    {
+      "epoch": 13,
+      "duration_seconds": 23.310207900009118,
+      "training_metrics": {
+        "g_loss": 0.9987152398300171,
+        "d_loss": 1.204433355102539,
+        "d_real": 0.5829533547019958,
+        "d_fake": 0.41673046461105345
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 94.29021660426966,
+          "inception_score_mean": 6.6778731276660075,
+          "inception_score_std": 0.3121096220850789,
+          "precision": 0.841796875,
+          "recall": 0.560546875
+        },
+        "validation": {
+          "fid": 100.12832132032383,
+          "inception_score_mean": 6.6778731276660075,
+          "inception_score_std": 0.3121096220850789,
+          "precision": 0.86328125,
+          "recall": 0.556640625
+        }
+      }
+    },
+    {
+      "epoch": 14,
+      "duration_seconds": 23.143792500020936,
+      "training_metrics": {
+        "g_loss": 0.9884119861602784,
+        "d_loss": 1.2121319080352784,
+        "d_real": 0.5797949873352051,
+        "d_fake": 0.4207867812156677
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 97.13636876877342,
+          "inception_score_mean": 6.689428405760356,
+          "inception_score_std": 0.47508913556655286,
+          "precision": 0.84765625,
+          "recall": 0.552734375
+        },
+        "validation": {
+          "fid": 102.19159295327748,
+          "inception_score_mean": 6.689428405760356,
+          "inception_score_std": 0.47508913556655286,
+          "precision": 0.826171875,
+          "recall": 0.509765625
+        }
+      }
+    },
+    {
+      "epoch": 15,
+      "duration_seconds": 23.561028199997963,
+      "training_metrics": {
+        "g_loss": 0.9703259447479248,
+        "d_loss": 1.2233018682861327,
+        "d_real": 0.5753615865707398,
+        "d_fake": 0.42520650190353393
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 66.41280843778641,
+          "inception_score_mean": 7.107209534318384,
+          "inception_score_std": 0.3251696151028105,
+          "precision": 0.828125,
+          "recall": 0.619140625
+        },
+        "validation": {
+          "fid": 69.62278035850521,
+          "inception_score_mean": 7.107209534318384,
+          "inception_score_std": 0.3251696151028105,
+          "precision": 0.849609375,
+          "recall": 0.611328125
+        }
+      }
+    },
+    {
+      "epoch": 16,
+      "duration_seconds": 22.973767299990868,
+      "training_metrics": {
+        "g_loss": 0.9638488048553466,
+        "d_loss": 1.2265017183685303,
+        "d_real": 0.5734311179542542,
+        "d_fake": 0.42735817909240725
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 82.58524614927124,
+          "inception_score_mean": 6.850698441552963,
+          "inception_score_std": 0.19354031110107459,
+          "precision": 0.81640625,
+          "recall": 0.56640625
+        },
+        "validation": {
+          "fid": 92.21501411187552,
+          "inception_score_mean": 6.850698441552963,
+          "inception_score_std": 0.19354031110107459,
+          "precision": 0.859375,
+          "recall": 0.560546875
+        }
+      }
+    },
+    {
+      "epoch": 17,
+      "duration_seconds": 23.475747400021646,
+      "training_metrics": {
+        "g_loss": 0.9686939428710938,
+        "d_loss": 1.2247765381622315,
+        "d_real": 0.5742241658401489,
+        "d_fake": 0.42601432953834534
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 83.22750361187836,
+          "inception_score_mean": 6.917694077685171,
+          "inception_score_std": 0.365977700334466,
+          "precision": 0.84765625,
+          "recall": 0.51171875
+        },
+        "validation": {
+          "fid": 86.65461251701646,
+          "inception_score_mean": 6.917694077685171,
+          "inception_score_std": 0.365977700334466,
+          "precision": 0.857421875,
+          "recall": 0.5
+        }
+      }
+    },
+    {
+      "epoch": 18,
+      "duration_seconds": 29.67879060000996,
+      "training_metrics": {
+        "g_loss": 0.963013152961731,
+        "d_loss": 1.228328402557373,
+        "d_real": 0.5721874241828918,
+        "d_fake": 0.4270909543800354
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 65.62876655945837,
+          "inception_score_mean": 6.9663952252981804,
+          "inception_score_std": 0.42308544153295463,
+          "precision": 0.822265625,
+          "recall": 0.57421875
+        },
+        "validation": {
+          "fid": 70.8088209949007,
+          "inception_score_mean": 6.9663952252981804,
+          "inception_score_std": 0.42308544153295463,
+          "precision": 0.87890625,
+          "recall": 0.578125
+        }
+      }
+    },
+    {
+      "epoch": 19,
+      "duration_seconds": 48.72275139999692,
+      "training_metrics": {
+        "g_loss": 0.9464371586418152,
+        "d_loss": 1.2348799438095093,
+        "d_real": 0.5695137649726868,
+        "d_fake": 0.43038410042762754
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 62.91731965053978,
+          "inception_score_mean": 7.092075390353418,
+          "inception_score_std": 0.2731821998925811,
+          "precision": 0.8203125,
+          "recall": 0.6328125
+        },
+        "validation": {
+          "fid": 64.78436615385397,
+          "inception_score_mean": 7.092075390353418,
+          "inception_score_std": 0.2731821998925811,
+          "precision": 0.845703125,
+          "recall": 0.634765625
+        }
+      }
+    },
+    {
+      "epoch": 20,
+      "duration_seconds": 34.68543149999459,
+      "training_metrics": {
+        "g_loss": 0.9463920637130737,
+        "d_loss": 1.237610092163086,
+        "d_real": 0.5688500735569,
+        "d_fake": 0.43178156914710997
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 66.61363932496971,
+          "inception_score_mean": 7.163874318928614,
+          "inception_score_std": 0.4996589999132452,
+          "precision": 0.845703125,
+          "recall": 0.634765625
+        },
+        "validation": {
+          "fid": 71.71729264575653,
+          "inception_score_mean": 7.163874318928614,
+          "inception_score_std": 0.4996589999132452,
+          "precision": 0.857421875,
+          "recall": 0.576171875
+        }
+      }
+    },
+    {
+      "epoch": 21,
+      "duration_seconds": 24.74653709999984,
+      "training_metrics": {
+        "g_loss": 0.942192302570343,
+        "d_loss": 1.2381066775512695,
+        "d_real": 0.5683067833518982,
+        "d_fake": 0.43201949422836305
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 63.69298168587244,
+          "inception_score_mean": 7.194785760027235,
+          "inception_score_std": 0.19014448365252856,
+          "precision": 0.845703125,
+          "recall": 0.60546875
+        },
+        "validation": {
+          "fid": 63.57146821518282,
+          "inception_score_mean": 7.194785760027235,
+          "inception_score_std": 0.19014448365252856,
+          "precision": 0.873046875,
+          "recall": 0.544921875
+        }
+      }
+    },
+    {
+      "epoch": 22,
+      "duration_seconds": 22.846254599979147,
+      "training_metrics": {
+        "g_loss": 0.9256027955245971,
+        "d_loss": 1.2471804851531982,
+        "d_real": 0.5644629954338074,
+        "d_fake": 0.43584911104202273
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 56.58316036104763,
+          "inception_score_mean": 7.306616946704521,
+          "inception_score_std": 0.35644429558393326,
+          "precision": 0.875,
+          "recall": 0.685546875
+        },
+        "validation": {
+          "fid": 59.081238010073214,
+          "inception_score_mean": 7.306616946704521,
+          "inception_score_std": 0.35644429558393326,
+          "precision": 0.865234375,
+          "recall": 0.6484375
+        }
+      }
+    },
+    {
+      "epoch": 23,
+      "duration_seconds": 22.701719499978935,
+      "training_metrics": {
+        "g_loss": 0.9311557188224793,
+        "d_loss": 1.242990654144287,
+        "d_real": 0.5663149570274353,
+        "d_fake": 0.43479771769523623
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 54.84269771460171,
+          "inception_score_mean": 7.2736154095634,
+          "inception_score_std": 0.2767546352529662,
+          "precision": 0.85546875,
+          "recall": 0.673828125
+        },
+        "validation": {
+          "fid": 60.468647267363075,
+          "inception_score_mean": 7.2736154095634,
+          "inception_score_std": 0.2767546352529662,
+          "precision": 0.845703125,
+          "recall": 0.650390625
+        }
+      }
+    },
+    {
+      "epoch": 24,
+      "duration_seconds": 22.797423899988644,
+      "training_metrics": {
+        "g_loss": 0.9211645194625855,
+        "d_loss": 1.251661524810791,
+        "d_real": 0.5620650506782532,
+        "d_fake": 0.43702449842453
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 50.093101373888864,
+          "inception_score_mean": 7.652105048252581,
+          "inception_score_std": 0.33788549612102414,
+          "precision": 0.83203125,
+          "recall": 0.677734375
+        },
+        "validation": {
+          "fid": 54.05785683309415,
+          "inception_score_mean": 7.652105048252581,
+          "inception_score_std": 0.33788549612102414,
+          "precision": 0.8671875,
+          "recall": 0.607421875
+        }
+      }
+    },
+    {
+      "epoch": 25,
+      "duration_seconds": 22.853439099999378,
+      "training_metrics": {
+        "g_loss": 0.9181354751205444,
+        "d_loss": 1.2517208404541016,
+        "d_real": 0.5619158406257629,
+        "d_fake": 0.4375565335941315
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 59.12705694132356,
+          "inception_score_mean": 7.482865615051699,
+          "inception_score_std": 0.33499901159338297,
+          "precision": 0.826171875,
+          "recall": 0.7265625
+        },
+        "validation": {
+          "fid": 62.16204589468997,
+          "inception_score_mean": 7.482865615051699,
+          "inception_score_std": 0.33499901159338297,
+          "precision": 0.85546875,
+          "recall": 0.68359375
+        }
+      }
+    },
+    {
+      "epoch": 26,
+      "duration_seconds": 23.527489200001583,
+      "training_metrics": {
+        "g_loss": 0.9117620074462891,
+        "d_loss": 1.2539022501754762,
+        "d_real": 0.5612577072906494,
+        "d_fake": 0.438922590007782
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 52.71558963139691,
+          "inception_score_mean": 7.529713088633674,
+          "inception_score_std": 0.3387483452240351,
+          "precision": 0.849609375,
+          "recall": 0.763671875
+        },
+        "validation": {
+          "fid": 57.45642326334037,
+          "inception_score_mean": 7.529713088633674,
+          "inception_score_std": 0.3387483452240351,
+          "precision": 0.826171875,
+          "recall": 0.75390625
+        }
+      }
+    },
+    {
+      "epoch": 27,
+      "duration_seconds": 27.186422500002664,
+      "training_metrics": {
+        "g_loss": 0.9069257921218872,
+        "d_loss": 1.2597409407806397,
+        "d_real": 0.5586693978500367,
+        "d_fake": 0.440941525182724
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 49.524195853915124,
+          "inception_score_mean": 7.55222680804143,
+          "inception_score_std": 0.39095116515002143,
+          "precision": 0.853515625,
+          "recall": 0.71875
+        },
+        "validation": {
+          "fid": 50.59381343150592,
+          "inception_score_mean": 7.55222680804143,
+          "inception_score_std": 0.39095116515002143,
+          "precision": 0.8515625,
+          "recall": 0.697265625
+        }
+      }
+    },
+    {
+      "epoch": 28,
+      "duration_seconds": 26.853983699984383,
+      "training_metrics": {
+        "g_loss": 0.8964819068908692,
+        "d_loss": 1.2627321447372437,
+        "d_real": 0.5576193967819214,
+        "d_fake": 0.44345765785217284
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 46.17056317644619,
+          "inception_score_mean": 7.522542836213675,
+          "inception_score_std": 0.222157912503266,
+          "precision": 0.828125,
+          "recall": 0.73046875
+        },
+        "validation": {
+          "fid": 50.61866299357861,
+          "inception_score_mean": 7.522542836213675,
+          "inception_score_std": 0.222157912503266,
+          "precision": 0.845703125,
+          "recall": 0.705078125
+        }
+      }
+    },
+    {
+      "epoch": 29,
+      "duration_seconds": 24.251556000002893,
+      "training_metrics": {
+        "g_loss": 0.9036618885421753,
+        "d_loss": 1.2590986656188965,
+        "d_real": 0.558230241394043,
+        "d_fake": 0.4407559871482849
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 41.388051771839685,
+          "inception_score_mean": 7.59440082662772,
+          "inception_score_std": 0.5490744406485739,
+          "precision": 0.865234375,
+          "recall": 0.76171875
+        },
+        "validation": {
+          "fid": 45.696469006205554,
+          "inception_score_mean": 7.59440082662772,
+          "inception_score_std": 0.5490744406485739,
+          "precision": 0.8671875,
+          "recall": 0.748046875
+        }
+      }
+    },
+    {
+      "epoch": 30,
+      "duration_seconds": 23.23287939999136,
+      "training_metrics": {
+        "g_loss": 0.8980573649978638,
+        "d_loss": 1.262796619682312,
+        "d_real": 0.5573856221008301,
+        "d_fake": 0.44309567251205445
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 46.690586734741274,
+          "inception_score_mean": 7.809149184408803,
+          "inception_score_std": 0.632023459874547,
+          "precision": 0.8515625,
+          "recall": 0.6875
+        },
+        "validation": {
+          "fid": 47.902531477153815,
+          "inception_score_mean": 7.809149184408803,
+          "inception_score_std": 0.632023459874547,
+          "precision": 0.861328125,
+          "recall": 0.689453125
+        }
+      }
+    },
+    {
+      "epoch": 31,
+      "duration_seconds": 23.262965899979463,
+      "training_metrics": {
+        "g_loss": 0.8957549883842468,
+        "d_loss": 1.2639679131317139,
+        "d_real": 0.5581665921592712,
+        "d_fake": 0.44459239258766176
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 47.74199632744691,
+          "inception_score_mean": 7.611900950925947,
+          "inception_score_std": 0.38275133499745817,
+          "precision": 0.8515625,
+          "recall": 0.705078125
+        },
+        "validation": {
+          "fid": 52.48035054317958,
+          "inception_score_mean": 7.611900950925947,
+          "inception_score_std": 0.38275133499745817,
+          "precision": 0.837890625,
+          "recall": 0.681640625
+        }
+      }
+    },
+    {
+      "epoch": 32,
+      "duration_seconds": 22.750776600005338,
+      "training_metrics": {
+        "g_loss": 0.8973722665405274,
+        "d_loss": 1.2621306825256349,
+        "d_real": 0.557354671459198,
+        "d_fake": 0.44240686920166017
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 32.35222730943234,
+          "inception_score_mean": 7.801803806224137,
+          "inception_score_std": 0.3530873734988609,
+          "precision": 0.86328125,
+          "recall": 0.724609375
+        },
+        "validation": {
+          "fid": 37.67644032250726,
+          "inception_score_mean": 7.801803806224137,
+          "inception_score_std": 0.3530873734988609,
+          "precision": 0.87890625,
+          "recall": 0.658203125
+        }
+      }
+    },
+    {
+      "epoch": 33,
+      "duration_seconds": 22.92420929999207,
+      "training_metrics": {
+        "g_loss": 0.886592314414978,
+        "d_loss": 1.26820868144989,
+        "d_real": 0.5557105852127076,
+        "d_fake": 0.44589625023841856
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 46.547641712534,
+          "inception_score_mean": 7.524667257039901,
+          "inception_score_std": 0.6018954735827202,
+          "precision": 0.853515625,
+          "recall": 0.701171875
+        },
+        "validation": {
+          "fid": 45.03290704979645,
+          "inception_score_mean": 7.524667257039901,
+          "inception_score_std": 0.6018954735827202,
+          "precision": 0.880859375,
+          "recall": 0.6796875
+        }
+      }
+    },
+    {
+      "epoch": 34,
+      "duration_seconds": 27.018765799992252,
+      "training_metrics": {
+        "g_loss": 0.8825211465263366,
+        "d_loss": 1.2728192848968505,
+        "d_real": 0.5523441885948182,
+        "d_fake": 0.4466311785030365
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 37.1576560819698,
+          "inception_score_mean": 7.822348116236521,
+          "inception_score_std": 0.3373917470792644,
+          "precision": 0.841796875,
+          "recall": 0.69921875
+        },
+        "validation": {
+          "fid": 42.05391544059782,
+          "inception_score_mean": 7.822348116236521,
+          "inception_score_std": 0.3373917470792644,
+          "precision": 0.873046875,
+          "recall": 0.70703125
+        }
+      }
+    },
+    {
+      "epoch": 35,
+      "duration_seconds": 29.703563999995822,
+      "training_metrics": {
+        "g_loss": 0.8872577076911926,
+        "d_loss": 1.2675179483032226,
+        "d_real": 0.5553410642242431,
+        "d_fake": 0.4453119429683685
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 38.55758790494087,
+          "inception_score_mean": 7.8198913169973885,
+          "inception_score_std": 0.22118761340228224,
+          "precision": 0.861328125,
+          "recall": 0.7734375
+        },
+        "validation": {
+          "fid": 45.673830746223175,
+          "inception_score_mean": 7.8198913169973885,
+          "inception_score_std": 0.22118761340228224,
+          "precision": 0.88671875,
+          "recall": 0.748046875
+        }
+      }
+    },
+    {
+      "epoch": 36,
+      "duration_seconds": 30.090820599987637,
+      "training_metrics": {
+        "g_loss": 0.8747357566642762,
+        "d_loss": 1.2745943334579468,
+        "d_real": 0.5525743635749817,
+        "d_fake": 0.4486642999267578
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 43.95418954702437,
+          "inception_score_mean": 7.84387568710588,
+          "inception_score_std": 0.33215463081266705,
+          "precision": 0.841796875,
+          "recall": 0.755859375
+        },
+        "validation": {
+          "fid": 48.56347007167507,
+          "inception_score_mean": 7.84387568710588,
+          "inception_score_std": 0.33215463081266705,
+          "precision": 0.85546875,
+          "recall": 0.73046875
+        }
+      }
+    },
+    {
+      "epoch": 37,
+      "duration_seconds": 29.17974890000187,
+      "training_metrics": {
+        "g_loss": 0.8793159698295593,
+        "d_loss": 1.2740932621765138,
+        "d_real": 0.5519623886680604,
+        "d_fake": 0.44741693970680235
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 38.515524897902864,
+          "inception_score_mean": 7.614047509974645,
+          "inception_score_std": 0.32868027198892547,
+          "precision": 0.822265625,
+          "recall": 0.791015625
+        },
+        "validation": {
+          "fid": 36.94045663909145,
+          "inception_score_mean": 7.614047509974645,
+          "inception_score_std": 0.32868027198892547,
+          "precision": 0.857421875,
+          "recall": 0.74609375
+        }
+      }
+    },
+    {
+      "epoch": 38,
+      "duration_seconds": 29.662762199994177,
+      "training_metrics": {
+        "g_loss": 0.8725731893730163,
+        "d_loss": 1.27381105758667,
+        "d_real": 0.552558186378479,
+        "d_fake": 0.44853704109191894
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 33.16441551197816,
+          "inception_score_mean": 8.053282674173756,
+          "inception_score_std": 0.46480667900751355,
+          "precision": 0.849609375,
+          "recall": 0.74609375
+        },
+        "validation": {
+          "fid": 35.538502375336165,
+          "inception_score_mean": 8.053282674173756,
+          "inception_score_std": 0.46480667900751355,
+          "precision": 0.859375,
+          "recall": 0.71484375
+        }
+      }
+    },
+    {
+      "epoch": 39,
+      "duration_seconds": 29.676250099990284,
+      "training_metrics": {
+        "g_loss": 0.8674122871398926,
+        "d_loss": 1.279215263519287,
+        "d_real": 0.549809807472229,
+        "d_fake": 0.44980419548988343
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 32.06875613959951,
+          "inception_score_mean": 8.09932221874463,
+          "inception_score_std": 0.3352897567208537,
+          "precision": 0.8125,
+          "recall": 0.7421875
+        },
+        "validation": {
+          "fid": 34.65256846077936,
+          "inception_score_mean": 8.09932221874463,
+          "inception_score_std": 0.3352897567208537,
+          "precision": 0.873046875,
+          "recall": 0.705078125
+        }
+      }
+    },
+    {
+      "epoch": 40,
+      "duration_seconds": 29.578502699994715,
+      "training_metrics": {
+        "g_loss": 0.8633000283432006,
+        "d_loss": 1.2810447763061523,
+        "d_real": 0.5489443132972718,
+        "d_fake": 0.45058102182388304
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 31.36942509363231,
+          "inception_score_mean": 7.8162421383293434,
+          "inception_score_std": 0.4862691966096504,
+          "precision": 0.80078125,
+          "recall": 0.72265625
+        },
+        "validation": {
+          "fid": 36.02783346544238,
+          "inception_score_mean": 7.8162421383293434,
+          "inception_score_std": 0.4862691966096504,
+          "precision": 0.87890625,
+          "recall": 0.75390625
+        }
+      }
+    },
+    {
+      "epoch": 41,
+      "duration_seconds": 29.850023300008615,
+      "training_metrics": {
+        "g_loss": 0.861990989189148,
+        "d_loss": 1.2825552941131593,
+        "d_real": 0.5480880872154236,
+        "d_fake": 0.4514895170021057
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 29.444433655555386,
+          "inception_score_mean": 7.87526342339879,
+          "inception_score_std": 0.44699888216332634,
+          "precision": 0.84375,
+          "recall": 0.720703125
+        },
+        "validation": {
+          "fid": 33.9926273496967,
+          "inception_score_mean": 7.87526342339879,
+          "inception_score_std": 0.44699888216332634,
+          "precision": 0.833984375,
+          "recall": 0.69140625
+        }
+      }
+    },
+    {
+      "epoch": 42,
+      "duration_seconds": 29.596474499994656,
+      "training_metrics": {
+        "g_loss": 0.8613285650634765,
+        "d_loss": 1.2822132064056397,
+        "d_real": 0.54852783618927,
+        "d_fake": 0.4514345830631256
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 41.84393195600991,
+          "inception_score_mean": 7.975321841289979,
+          "inception_score_std": 0.3057346981856719,
+          "precision": 0.87109375,
+          "recall": 0.74609375
+        },
+        "validation": {
+          "fid": 42.3457365801809,
+          "inception_score_mean": 7.975321841289979,
+          "inception_score_std": 0.3057346981856719,
+          "precision": 0.85546875,
+          "recall": 0.7421875
+        }
+      }
+    },
+    {
+      "epoch": 43,
+      "duration_seconds": 29.95579850001377,
+      "training_metrics": {
+        "g_loss": 0.8611523661804199,
+        "d_loss": 1.284038295288086,
+        "d_real": 0.5482972336578369,
+        "d_fake": 0.4529271929931641
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 44.750010962599305,
+          "inception_score_mean": 7.766500710460711,
+          "inception_score_std": 0.4812705473778246,
+          "precision": 0.853515625,
+          "recall": 0.763671875
+        },
+        "validation": {
+          "fid": 49.330343668942895,
+          "inception_score_mean": 7.766500710460711,
+          "inception_score_std": 0.4812705473778246,
+          "precision": 0.84375,
+          "recall": 0.728515625
+        }
+      }
+    },
+    {
+      "epoch": 44,
+      "duration_seconds": 29.67584059998626,
+      "training_metrics": {
+        "g_loss": 0.8638809526062011,
+        "d_loss": 1.2805311653137208,
+        "d_real": 0.5495032897949219,
+        "d_fake": 0.4509266842746735
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 37.63334660672018,
+          "inception_score_mean": 7.740893841760219,
+          "inception_score_std": 0.3094429591975145,
+          "precision": 0.869140625,
+          "recall": 0.73046875
+        },
+        "validation": {
+          "fid": 40.36590464681937,
+          "inception_score_mean": 7.740893841760219,
+          "inception_score_std": 0.3094429591975145,
+          "precision": 0.884765625,
+          "recall": 0.71484375
+        }
+      }
+    },
+    {
+      "epoch": 45,
+      "duration_seconds": 29.170141600014176,
+      "training_metrics": {
+        "g_loss": 0.8538643556022644,
+        "d_loss": 1.287136326675415,
+        "d_real": 0.5463419756889343,
+        "d_fake": 0.45377443670272827
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 42.83459570408387,
+          "inception_score_mean": 7.733574228056284,
+          "inception_score_std": 0.3745514652248141,
+          "precision": 0.87109375,
+          "recall": 0.755859375
+        },
+        "validation": {
+          "fid": 44.89551696858844,
+          "inception_score_mean": 7.733574228056284,
+          "inception_score_std": 0.3745514652248141,
+          "precision": 0.873046875,
+          "recall": 0.689453125
+        }
+      }
+    },
+    {
+      "epoch": 46,
+      "duration_seconds": 30.087991600012174,
+      "training_metrics": {
+        "g_loss": 0.8637952105903626,
+        "d_loss": 1.2810569744110107,
+        "d_real": 0.5490299474716187,
+        "d_fake": 0.45141210081100464
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 36.22493726540651,
+          "inception_score_mean": 8.038699873212774,
+          "inception_score_std": 0.2961242056170908,
+          "precision": 0.873046875,
+          "recall": 0.775390625
+        },
+        "validation": {
+          "fid": 40.800553378889305,
+          "inception_score_mean": 8.038699873212774,
+          "inception_score_std": 0.2961242056170908,
+          "precision": 0.876953125,
+          "recall": 0.724609375
+        }
+      }
+    },
+    {
+      "epoch": 47,
+      "duration_seconds": 30.051087999978336,
+      "training_metrics": {
+        "g_loss": 0.8552506915283203,
+        "d_loss": 1.2863394225692748,
+        "d_real": 0.5468093855667114,
+        "d_fake": 0.4530414787101746
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 41.69961203702363,
+          "inception_score_mean": 7.730296366537983,
+          "inception_score_std": 0.3432071867577533,
+          "precision": 0.828125,
+          "recall": 0.755859375
+        },
+        "validation": {
+          "fid": 45.602172104493164,
+          "inception_score_mean": 7.730296366537983,
+          "inception_score_std": 0.3432071867577533,
+          "precision": 0.841796875,
+          "recall": 0.748046875
+        }
+      }
+    },
+    {
+      "epoch": 48,
+      "duration_seconds": 30.046243799995864,
+      "training_metrics": {
+        "g_loss": 0.8542132981491088,
+        "d_loss": 1.2828853666687012,
+        "d_real": 0.5481764268875122,
+        "d_fake": 0.45254214853286745
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 40.142752707957726,
+          "inception_score_mean": 7.858552333073655,
+          "inception_score_std": 0.40035283226890656,
+          "precision": 0.822265625,
+          "recall": 0.79296875
+        },
+        "validation": {
+          "fid": 39.74748219140916,
+          "inception_score_mean": 7.858552333073655,
+          "inception_score_std": 0.40035283226890656,
+          "precision": 0.841796875,
+          "recall": 0.75390625
+        }
+      }
+    },
+    {
+      "epoch": 49,
+      "duration_seconds": 29.819872599997325,
+      "training_metrics": {
+        "g_loss": 0.858060122795105,
+        "d_loss": 1.2844165395355225,
+        "d_real": 0.5467162333869934,
+        "d_fake": 0.45151021239280703
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 29.605125521840378,
+          "inception_score_mean": 8.072008692427612,
+          "inception_score_std": 0.3385605360729972,
+          "precision": 0.83203125,
+          "recall": 0.80859375
+        },
+        "validation": {
+          "fid": 29.42633824417355,
+          "inception_score_mean": 8.072008692427612,
+          "inception_score_std": 0.3385605360729972,
+          "precision": 0.884765625,
+          "recall": 0.806640625
+        }
+      }
+    },
+    {
+      "epoch": 50,
+      "duration_seconds": 30.770595300011337,
+      "training_metrics": {
+        "g_loss": 0.851470058631897,
+        "d_loss": 1.2860222578430176,
+        "d_real": 0.5467535750007629,
+        "d_fake": 0.45343838890075683
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 40.06110414431142,
+          "inception_score_mean": 7.900649586312831,
+          "inception_score_std": 0.254794627066816,
+          "precision": 0.845703125,
+          "recall": 0.763671875
+        },
+        "validation": {
+          "fid": 41.31215342361213,
+          "inception_score_mean": 7.900649586312831,
+          "inception_score_std": 0.254794627066816,
+          "precision": 0.859375,
+          "recall": 0.7421875
+        }
+      }
+    },
+    {
+      "epoch": 51,
+      "duration_seconds": 29.608674799994333,
+      "training_metrics": {
+        "g_loss": 0.8565080296134949,
+        "d_loss": 1.2832409148406982,
+        "d_real": 0.5482569514083863,
+        "d_fake": 0.45220150382995605
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 40.88348518963986,
+          "inception_score_mean": 7.621573918273775,
+          "inception_score_std": 0.2785280730660892,
+          "precision": 0.84375,
+          "recall": 0.736328125
+        },
+        "validation": {
+          "fid": 43.34683341427001,
+          "inception_score_mean": 7.621573918273775,
+          "inception_score_std": 0.2785280730660892,
+          "precision": 0.869140625,
+          "recall": 0.712890625
+        }
+      }
+    },
+    {
+      "epoch": 52,
+      "duration_seconds": 29.611709100019652,
+      "training_metrics": {
+        "g_loss": 0.8533900535202026,
+        "d_loss": 1.2887434468460084,
+        "d_real": 0.544962820854187,
+        "d_fake": 0.45378157888412474
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 37.415551288987174,
+          "inception_score_mean": 7.9227143818966015,
+          "inception_score_std": 0.4750091345704269,
+          "precision": 0.85546875,
+          "recall": 0.806640625
+        },
+        "validation": {
+          "fid": 34.17982027521269,
+          "inception_score_mean": 7.9227143818966015,
+          "inception_score_std": 0.4750091345704269,
+          "precision": 0.876953125,
+          "recall": 0.7890625
+        }
+      }
+    },
+    {
+      "epoch": 53,
+      "duration_seconds": 30.13041990000056,
+      "training_metrics": {
+        "g_loss": 0.8478452979660034,
+        "d_loss": 1.291071566886902,
+        "d_real": 0.544341453666687,
+        "d_fake": 0.455267431268692
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 30.885631622985542,
+          "inception_score_mean": 8.042079926934756,
+          "inception_score_std": 0.2522300651160602,
+          "precision": 0.875,
+          "recall": 0.75390625
+        },
+        "validation": {
+          "fid": 35.78984989328551,
+          "inception_score_mean": 8.042079926934756,
+          "inception_score_std": 0.2522300651160602,
+          "precision": 0.8671875,
+          "recall": 0.74609375
+        }
+      }
+    },
+    {
+      "epoch": 54,
+      "duration_seconds": 30.670052600005874,
+      "training_metrics": {
+        "g_loss": 0.8532658958625794,
+        "d_loss": 1.2882045404052735,
+        "d_real": 0.54574899559021,
+        "d_fake": 0.4543458154296875
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 35.39528628451566,
+          "inception_score_mean": 7.955496243507346,
+          "inception_score_std": 0.37337519830966215,
+          "precision": 0.85546875,
+          "recall": 0.783203125
+        },
+        "validation": {
+          "fid": 41.78518525962452,
+          "inception_score_mean": 7.955496243507346,
+          "inception_score_std": 0.37337519830966215,
+          "precision": 0.84765625,
+          "recall": 0.763671875
+        }
+      }
+    },
+    {
+      "epoch": 55,
+      "duration_seconds": 30.381018100015353,
+      "training_metrics": {
+        "g_loss": 0.8523076933479309,
+        "d_loss": 1.286755489807129,
+        "d_real": 0.5465980687713623,
+        "d_fake": 0.4539584337520599
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 33.880025766544534,
+          "inception_score_mean": 8.163855973640981,
+          "inception_score_std": 0.25563006988421993,
+          "precision": 0.8828125,
+          "recall": 0.75390625
+        },
+        "validation": {
+          "fid": 34.78191010268414,
+          "inception_score_mean": 8.163855973640981,
+          "inception_score_std": 0.25563006988421993,
+          "precision": 0.87890625,
+          "recall": 0.72265625
+        }
+      }
+    },
+    {
+      "epoch": 56,
+      "duration_seconds": 29.8699493999884,
+      "training_metrics": {
+        "g_loss": 0.8452557248306274,
+        "d_loss": 1.2926290734863282,
+        "d_real": 0.5440039966773986,
+        "d_fake": 0.45630125517845155
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 35.95809693175759,
+          "inception_score_mean": 8.219175844823159,
+          "inception_score_std": 0.2898584120401774,
+          "precision": 0.875,
+          "recall": 0.7578125
+        },
+        "validation": {
+          "fid": 38.52518644878054,
+          "inception_score_mean": 8.219175844823159,
+          "inception_score_std": 0.2898584120401774,
+          "precision": 0.884765625,
+          "recall": 0.728515625
+        }
+      }
+    },
+    {
+      "epoch": 57,
+      "duration_seconds": 29.49020840000594,
+      "training_metrics": {
+        "g_loss": 0.8480195855522156,
+        "d_loss": 1.2897435664367676,
+        "d_real": 0.5451676855278015,
+        "d_fake": 0.45500970876693725
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 41.01466349991758,
+          "inception_score_mean": 7.912084244939457,
+          "inception_score_std": 0.38414941728783963,
+          "precision": 0.869140625,
+          "recall": 0.76171875
+        },
+        "validation": {
+          "fid": 45.557168518087494,
+          "inception_score_mean": 7.912084244939457,
+          "inception_score_std": 0.38414941728783963,
+          "precision": 0.85546875,
+          "recall": 0.744140625
+        }
+      }
+    },
+    {
+      "epoch": 58,
+      "duration_seconds": 29.85912159999134,
+      "training_metrics": {
+        "g_loss": 0.8439308014297485,
+        "d_loss": 1.290965664100647,
+        "d_real": 0.54500717628479,
+        "d_fake": 0.45579505123138425
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 34.10943245551916,
+          "inception_score_mean": 8.04120345280517,
+          "inception_score_std": 0.209641277259619,
+          "precision": 0.84765625,
+          "recall": 0.78515625
+        },
+        "validation": {
+          "fid": 37.848525718314306,
+          "inception_score_mean": 8.04120345280517,
+          "inception_score_std": 0.209641277259619,
+          "precision": 0.880859375,
+          "recall": 0.7734375
+        }
+      }
+    },
+    {
+      "epoch": 59,
+      "duration_seconds": 29.576192300010007,
+      "training_metrics": {
+        "g_loss": 0.84158960647583,
+        "d_loss": 1.2933106187438965,
+        "d_real": 0.543875442237854,
+        "d_fake": 0.4566323809909821
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 36.048752272843984,
+          "inception_score_mean": 7.899969931471891,
+          "inception_score_std": 0.21373644733379188,
+          "precision": 0.8515625,
+          "recall": 0.748046875
+        },
+        "validation": {
+          "fid": 39.48004587751501,
+          "inception_score_mean": 7.899969931471891,
+          "inception_score_std": 0.21373644733379188,
+          "precision": 0.86328125,
+          "recall": 0.771484375
+        }
+      }
+    },
+    {
+      "epoch": 60,
+      "duration_seconds": 30.110349199996563,
+      "training_metrics": {
+        "g_loss": 0.8349264080619812,
+        "d_loss": 1.2966202127075195,
+        "d_real": 0.542111807308197,
+        "d_fake": 0.4583487031364441
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 40.180135892701095,
+          "inception_score_mean": 7.959442037932154,
+          "inception_score_std": 0.383187316530386,
+          "precision": 0.837890625,
+          "recall": 0.78125
+        },
+        "validation": {
+          "fid": 44.11676825783799,
+          "inception_score_mean": 7.959442037932154,
+          "inception_score_std": 0.383187316530386,
+          "precision": 0.861328125,
+          "recall": 0.78125
+        }
+      }
+    },
+    {
+      "epoch": 61,
+      "duration_seconds": 29.377851700002793,
+      "training_metrics": {
+        "g_loss": 0.8408392442703247,
+        "d_loss": 1.2940156078338623,
+        "d_real": 0.5435569939994812,
+        "d_fake": 0.4569527669620514
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 29.77625735209022,
+          "inception_score_mean": 8.174243594930864,
+          "inception_score_std": 0.2540191894722514,
+          "precision": 0.857421875,
+          "recall": 0.791015625
+        },
+        "validation": {
+          "fid": 33.56142057528164,
+          "inception_score_mean": 8.174243594930864,
+          "inception_score_std": 0.2540191894722514,
+          "precision": 0.888671875,
+          "recall": 0.796875
+        }
+      }
+    },
+    {
+      "epoch": 62,
+      "duration_seconds": 29.709204799990403,
+      "training_metrics": {
+        "g_loss": 0.8411038475418091,
+        "d_loss": 1.292275150604248,
+        "d_real": 0.5440746469116211,
+        "d_fake": 0.4563726233482361
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 26.508190080828484,
+          "inception_score_mean": 8.221532714305987,
+          "inception_score_std": 0.23528492750077845,
+          "precision": 0.880859375,
+          "recall": 0.794921875
+        },
+        "validation": {
+          "fid": 29.53497937758286,
+          "inception_score_mean": 8.221532714305987,
+          "inception_score_std": 0.23528492750077845,
+          "precision": 0.873046875,
+          "recall": 0.72265625
+        }
+      }
+    },
+    {
+      "epoch": 63,
+      "duration_seconds": 29.90681549999863,
+      "training_metrics": {
+        "g_loss": 0.8429077273750305,
+        "d_loss": 1.2909981327438353,
+        "d_real": 0.5446766012191773,
+        "d_fake": 0.45605675124168393
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 38.59871991090337,
+          "inception_score_mean": 7.93845193082098,
+          "inception_score_std": 0.3870716546662558,
+          "precision": 0.849609375,
+          "recall": 0.794921875
+        },
+        "validation": {
+          "fid": 40.94193144624064,
+          "inception_score_mean": 7.93845193082098,
+          "inception_score_std": 0.3870716546662558,
+          "precision": 0.8671875,
+          "recall": 0.76953125
+        }
+      }
+    },
+    {
+      "epoch": 64,
+      "duration_seconds": 29.435295100003714,
+      "training_metrics": {
+        "g_loss": 0.8366707090568543,
+        "d_loss": 1.2938997311401368,
+        "d_real": 0.5435643386077881,
+        "d_fake": 0.45679211879730225
+      },
+      "quality_metrics": {
+        "train": {
+          "fid": 34.99382490503798,
+          "inception_score_mean": 7.93388879610702,
+          "inception_score_std": 0.1536652281186672,
+          "precision": 0.85546875,
+          "recall": 0.759765625
+        },
+        "validation": {
+          "fid": 39.493667459354434,
+          "inception_score_mean": 7.93388879610702,
+          "inception_score_std": 0.1536652281186672,
+          "precision": 0.873046875,
+          "recall": 0.736328125
+        }
+      }
+    }
+  ]
+}
