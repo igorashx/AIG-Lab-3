@@ -1,2 +1,0 @@
-2026-09-24 09:51:42,979 | INFO | Execution started. Device=cpu, Python=3.14.2, PyTorch=2.14.0+cpu
-2026-09-24 09:51:43,032 | INFO | Smoke test finalizat. Artefacte: outputs\run_20260924_095142_829203
